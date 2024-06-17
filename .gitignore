@@ -4,3 +4,4 @@
 *.db
 *.git
 *.env
+/__pycache__
