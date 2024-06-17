@@ -1,3 +1,2 @@
-*.evn
-*.git
+.git
 .env
