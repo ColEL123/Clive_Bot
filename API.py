@@ -5,8 +5,6 @@ api_key = os.getenv('API_KEY')
 url = 'https://americas.api.riotgames.com/riot/account/v1/accounts/by-riot-id/'
 url2 = 'https://oc1.api.riotgames.com/lol/spectator/v5/active-games/by-summoner/'
 
-#summonerName = 'Saggykrakole'
-#tagLine = '23145'
 def getPuuid(summonerName, tagLine):
     api_url = url + summonerName + '/' + tagLine + '?api_key=' + api_key
     resp = requests.get(api_url)
