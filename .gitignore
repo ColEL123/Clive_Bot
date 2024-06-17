@@ -2,3 +2,5 @@
 .env
 .db
 *.db
+*.git
+*.env
