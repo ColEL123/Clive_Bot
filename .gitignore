@@ -5,3 +5,5 @@
 *.git
 *.env
 /__pycache__
+__pycache__/API.cpython-39.pyc
+__pycache__/CliveBot.cpython-39.pyc
